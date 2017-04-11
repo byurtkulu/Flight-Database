@@ -17,15 +17,15 @@ INSERT INTO `flights`(`flight_number`, `plane_model`, `tail_number`, `gate/park`
 			('FZ753', 'BOEING 737-73H', 'A6-FDM', '22', '2017-03-19 21:12:00', FALSE, 'DXB', 'SAW', '06/24'); 
 
 INSERT INTO `employees`(`ssn`, `name`, `service_type`)
-	VALUES  ('768432514', 'John Appleseed', 'reservation clerk'),
-			('134284729', 'Fuat Dillan', 'pilot'),
-			('523157523', 'Jack Denzil', 'flight attendant'),
-			('412354687', 'September Brock', 'flight attendant'),
-			('426478596', 'Bart Pancras', 'maintenance'),
-			('654532157', 'Murat Urbano', 'sales'),
-			('785651334', 'Zackary Gordie', 'pilot'),
-			('254687321', 'Selin Timucin', 'flight attendant'),
-			('546752347', 'Ece Asil', 'sales');
+	VALUES  ('768432514', 'John Appleseed', 'cabin cleaning'),
+			('134284729', 'Fuat Dillan', 'cabin cleaning'),
+			('523157523', 'Jack Denzil', 'cabin cleaning'),
+			('412354687', 'September Brock', 'cabin cleaning'),
+			('426478596', 'Bart Pancras', 'cabin cleaning'),
+			('654532157', 'Murat Urbano', 'counter security'),
+			('785651334', 'Zackary Gordie', 'counter security'),
+			('254687321', 'Selin Timucin', 'baggage transport'),
+			('546752347', 'Ece Asil', 'baggage transport');
 
 INSERT INTO `passengers`(`class`, `name`, `customer_no`, `age`, `isFemale`)
 	VALUES  ('ECONOMY', 'Altan Mehmed', '42342147966', '41', FALSE),
