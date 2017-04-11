@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `flights` (
 	`destination` CHAR(3),
 	`departure` CHAR(3),
 	`runway` CHAR(5),
+	`is_canceled` BOOLEAN,
 	PRIMARY KEY (`flight_number`)
 );
 
