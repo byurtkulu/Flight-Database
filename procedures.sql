@@ -1,3 +1,4 @@
+-- ORAN CAN
 DELIMITER ;
 DELIMITER $$
 
@@ -19,3 +20,4 @@ BEGIN
 	INSERT INTO `airlines`(`airline_code`, `airline_name`)
 		VALUES (airline_code, airline_name);
 END $$
+-- ORAN CAN END
